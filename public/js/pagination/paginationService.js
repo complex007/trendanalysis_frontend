@@ -1,6 +1,5 @@
 angular.module('TrendAnalysisApp')
-   
-    .service('PageService',  function () 
+.service('PageService',  function () 
 {
         // service definition
         var service = {};

@@ -31,5 +31,4 @@ function config($stateProvider, $urlRouterProvider) {
 
 angular
     .module('TrendAnalysisApp')
-    .config(config) 
-    ;
+    .config(config);

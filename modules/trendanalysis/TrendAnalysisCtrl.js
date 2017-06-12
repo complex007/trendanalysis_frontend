@@ -158,14 +158,4 @@ initController();
 $scope.showTrend($scope.period);
 $scope.showTable($scope.filtercondition);
 
-
-
-
-       
-
-
-
-
-
-
 }])
