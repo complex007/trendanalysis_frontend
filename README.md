@@ -17,7 +17,10 @@
         bower install
         cd ..
         http-server -o
-    (3) the default browser will be triggered. 
+        
+        the available url will be printed in command prompt. 
+     (3) search in browser using: available url + '/trendanalysis_frontend/#!/trendanalysis' 
+        
 
 **Note: 
 (1) make sure the tendanalysis is running before run this project; 
