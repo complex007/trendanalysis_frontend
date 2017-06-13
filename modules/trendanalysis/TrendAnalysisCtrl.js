@@ -123,7 +123,7 @@ $scope.showTable = function (filtercondition){
         pagelimit:$scope.pagelimit,
         filtercondition:filtercondition
     };
-   console.log(criterion);
+ 
     TrendAnalysisService.getTrend(criterion).Get(
     function(response){
         
