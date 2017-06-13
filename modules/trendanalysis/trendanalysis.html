@@ -3,7 +3,7 @@
 
 <legend>trendanalysis</legend>
 <div class="container">
-<select ng-model="period" ng-change="showTrend(period)">
+<select ng-model="period" ng-change="showTrend(period);filtercondition='';pageno=0;showTable(filtercondition)">
 <option>All</option>
 <option>Today</option>
 </select>

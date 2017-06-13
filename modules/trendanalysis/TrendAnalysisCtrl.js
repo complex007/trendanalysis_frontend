@@ -119,11 +119,11 @@ $scope.showTrend = function (period){
 $scope.showTable = function (filtercondition){
     var criterion={
         pageno:$scope.pageno,
-        periodtime:"empty",
+        periodtime:$scope.period,
         pagelimit:$scope.pagelimit,
         filtercondition:filtercondition
     };
-   
+   console.log(criterion);
     TrendAnalysisService.getTrend(criterion).Get(
     function(response){
         
